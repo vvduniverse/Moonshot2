@@ -15,6 +15,7 @@
 		A00F40B5278EDF9400060667 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = A00F40B3278EDF9400060667 /* missions.json */; };
 		A00F40B7278EE03600060667 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00F40B6278EE03600060667 /* Astronaut.swift */; };
 		A00F40B9278EE0BA00060667 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00F40B8278EE0BA00060667 /* Bundle-Decodable.swift */; };
+		A00F40BB278EEE6800060667 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00F40BA278EEE6800060667 /* Mission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		A00F40B3278EDF9400060667 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		A00F40B6278EE03600060667 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		A00F40B8278EE0BA00060667 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		A00F40BA278EEE6800060667 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +63,12 @@
 			children = (
 				A00349A5278D625600D2DA7A /* Moonshot2App.swift */,
 				A00349A7278D625600D2DA7A /* ContentView.swift */,
+				A00F40B6278EE03600060667 /* Astronaut.swift */,
+				A00F40BA278EEE6800060667 /* Mission.swift */,
+				A00F40B8278EE0BA00060667 /* Bundle-Decodable.swift */,
 				A00F40B2278EDF9400060667 /* astronauts.json */,
 				A00F40B3278EDF9400060667 /* missions.json */,
 				A00349A9278D625700D2DA7A /* Assets.xcassets */,
-				A00F40B6278EE03600060667 /* Astronaut.swift */,
-				A00F40B8278EE0BA00060667 /* Bundle-Decodable.swift */,
 				A00349AB278D625700D2DA7A /* Preview Content */,
 			);
 			path = Moonshot2;
@@ -154,6 +157,7 @@
 				A00F40B7278EE03600060667 /* Astronaut.swift in Sources */,
 				A00349A8278D625600D2DA7A /* ContentView.swift in Sources */,
 				A00349A6278D625600D2DA7A /* Moonshot2App.swift in Sources */,
+				A00F40BB278EEE6800060667 /* Mission.swift in Sources */,
 				A00F40B9278EE0BA00060667 /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
