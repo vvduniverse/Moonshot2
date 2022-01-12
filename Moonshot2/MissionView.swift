@@ -26,6 +26,7 @@ struct MissionView: View {
                         .frame(maxWidth: geometry.size.width * 0.6)
                         .padding(.top)
                     
+                    Text("Lauched at \(mission.formattedLaunchDate)")
                     
                     VStack(alignment: .leading) {
                         Rectangle()
